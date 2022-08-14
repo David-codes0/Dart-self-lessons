@@ -1,0 +1,19 @@
+ERROR
+ --> Programmer mistake (we did something wrong).
+ --> Calling a function with invalid arguments, index out of bounds etc.
+ --> Program should terminate immediately (not safe to recover).
+
+EXCEPTION
+--> Failure condition: something unexcepted happened.
+--> Unexcepted: out of our control.
+--> Handle it (e.g. show message to user) and recover.
+
+Note about Flutter Apps
+
+Assertions are enabled in Debug mode
+Assertions are enabled in release mode
+
+
+Assertions are only a safety net to catch runtime errors early
+
+Exceptions are triggered in debug and release mode.
